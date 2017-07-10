@@ -1,0 +1,369 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Xanagar Consulting</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--  <link rel="shortcut icon" href="favicon.ico"/> -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/png" href="favicon.png" sizes="16x16" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+
+        <style type="text/css">
+            a:link {color: black;}      /* unvisited link */
+            a:visited {color: black;}   /* visited link */
+            a:hover {color: black;}     /* mouse over link */
+            a:active {color: black;}    /* selected link */
+        </style>
+
+
+
+        <script type = "text/javascript">
+        function cycleImages(){
+            var $active = $('#cycler .active');
+            var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+            $next.css('z-index',2);//move the next image up the pile
+            $active.fadeOut(1500,function(){//fade out the top image
+            $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+            $next.css('z-index',3).addClass('active');//make the next image the top one
+        });
+        }
+
+
+        </script>
+
+
+    </head>
+    <body  onload = "startTimer()">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+
+        <div id="topBanner" class="banner" style="box-shadow: 2.5px 2.5px 5px #666666; z-index: 9999; display: table-cell; vertical-align: middle; text-align: center">
+
+            <img  src="Xanagar6.png" style=" display: inline; margin-right: 40px; margin-top: 16px; width: 179.43px; height: 50.57px;"/>
+
+
+            <a id="services" class="navButton">Services</a>
+            <a id="success" class="navButton">Success Stories</a>
+            <a id ="contact" class="navButton" style="margin-right: 300px">Contact</a>
+        </div>
+
+<!--
+        <div id="cycler">
+            <img style="width: 100%" class="active" src="image11.jpg" alt="My image" />
+|<img style="width: 100%" src="image12.jpg" alt="My image" />
+            <img style="width: 100%" src="image13.jpg" alt="My image" />
+
+        </div>
+
+-->
+
+        <img id="coverImage" src="image11.jpg" style="width: 100vw"/>
+
+
+
+
+        <div  style="margin-top: 100px; width: 50vw; text-align: center; margin-left: 25vw;">
+
+
+        </div>
+
+
+        <div id="servicesLink" style="width: 100vw; text-align: center; margin-left: 0vw;">
+            <a name="testName">
+
+                <h1 style="font-family: Comfortaa; font-weight:lighter; ">
+
+                    Services
+
+                </h1>
+
+
+            </a>
+
+            <div class = "servicePanel" style="display: inline">
+                <img src="Website.png" style="width: 250px; height: 400px; margin: 48px">
+
+                <div id="serviceButton1">Details</div>
+            </div>
+
+
+            <div class = "servicePanel" style="display: inline">
+                <img src="WebApp.png" style="width: 250px; height: 400px; margin: 48px">
+                <div id="serviceButton2">Details</div>
+
+            </div>
+
+            <div class = "servicePanel" style="display: inline">
+                <img src="MobileApp.png" style="width: 250px; height: 400px; margin: 48px">
+                <div id="serviceButton3">Details</div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div id="websiteInfo" style="text-align: center">
+
+
+           <img src="browser-mockup.png" style="width: 220px; height: 158px; margin-top: 32px"/>
+
+            <p style="font-family: Comfortaa; color: #ffffff; padding: 64px; font-size: 24px;">
+                 mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
+            </p>
+
+
+
+        </div>
+
+        <div id="webAppInfo" style="text-align: center">
+
+
+
+
+            <img src="globe2.png" style="width: 225px; height: 225px; padding: 15px"/>
+            <p style="font-family: Comfortaa; color: #ffffff; padding: 24px; font-size: 24px; ">
+                ea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
+            </p>
+
+
+        </div>
+
+        <div id="mobileAppInfo" style="text-align: center">
+
+
+            <img src="phone.png" style="width: 225px; height: 225px; padding: 15px"/>
+
+            <p style="font-family: Comfortaa; color: #ffffff; padding: 24px; font-size: 24px;">
+
+                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
+            </p>
+
+
+        </div>
+
+        <!--
+
+        <div  style="margin-top: 100px; width: 70vw; text-align: center; margin-left: 15vw;">
+
+
+
+
+            <h1 style="font-family: Comfortaa; font-weight:lighter; margin-bottom: 36px">
+
+                Success Stories
+
+            </h1>
+
+        </div>
+-->
+
+        <div id="contactLink" style="margin-top: 100px; width: 70vw; text-align: center; margin-left: 15vw;">
+
+
+            <a name="contactName">
+
+
+
+                <h1 style="font-family: Comfortaa; font-weight:lighter; margin-bottom: 36px">
+
+                    Contact
+
+                </h1>
+
+
+
+            </a>
+
+
+
+
+
+
+        </div>
+
+
+        <div id="contactInfo" style="text-align: center">
+
+
+
+
+            <p style="font-family: Comfortaa; color: #ffffff; padding: 24px; font-size: 24px;">
+
+                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
+                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
+
+            </p>
+
+
+        </div>
+
+
+
+        <div class="container-fluid" style="height:200px; background-color: #555555; margin-top: 150px">
+
+            <div class="row-center" style="padding:75px">
+
+                <div class="col" style="text-align: center">
+                    <h8 style="color: white">+(940) 395-9871</h8>
+                </div>
+                <div class="col" style="text-align: center">
+                    <h8 style="color: white">info@millnerwoodruff.com</h8>
+                </div>
+                <div class="col" style="text-align: center">
+                    <h8 style="color: white">Copyright © 2017 By Xanagar Consulting </h8>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <!--  <img src="Gallery/Gallery1.png" style="width: 100%"/> -->
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Add your site or application content here -->
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $('#websiteInfo').hide();
+                $('#webAppInfo').hide();
+                $('#mobileAppInfo').hide();
+
+                $('#serviceButton1').click(function() {
+                    $('#webAppInfo').hide();
+                    $('#mobileAppInfo').hide();
+                    $('#websiteInfo').slideToggle("fast");
+                });
+
+                $('#serviceButton2').click(function() {
+                    $('#websiteInfo').hide();
+                    $('#mobileAppInfo').hide();
+                    $('#webAppInfo').slideToggle("fast");
+                });
+
+
+                $('#serviceButton3').click(function() {
+                    $('#websiteInfo').hide();
+                    $('#webAppInfo').hide();
+                    $('#mobileAppInfo').slideToggle("fast");
+                });
+
+
+                var counter = 0;
+
+                var imageArray = ['image11.jpg', 'image12.jpg', 'image13.jpg']
+
+                function changeImages() {
+                    if (counter == 2) {
+                        counter = 0;
+                        $('#coverImage').attr('src', imageArray[0]);
+                    } else {
+                        counter = counter + 1;
+                        $('#coverImage').attr('src', imageArray[counter]);
+                    }
+                }
+
+
+                // run every 7s
+                //setInterval(changeImages(), 500);
+
+
+
+                $( "#XanagarLogo").hide().fadeIn(2000);
+                $( "#FullSite").hide().fadeIn(2500);
+                $( "#Inquiries").hide().fadeIn(3000);
+
+
+
+                function goToByScroll(id){
+                    // Remove "link" from the ID
+                    id = id + "Link";
+                    // Scroll
+                    $('html,body').animate({
+                            scrollTop: $("#"+id).offset().top},
+                        'slow');
+                }
+
+                $("#services").click(function(e) {
+                    // Prevent a page reload when a link is pressed
+                    e.preventDefault();
+                    // Call the scroll function
+                    goToByScroll(this.id);
+                });
+
+
+                function goToByScroll2(id){
+                    // Remove "link" from the ID
+                    id = id + "Link";
+                    // Scroll
+                    $('html,body').animate({
+                            scrollTop: $("#"+id).offset().top},
+                        'slow');
+                }
+
+                $("#contact").click(function(e) {
+                    // Prevent a page reload when a link is pressed
+                    e.preventDefault();
+                    // Call the scroll function
+                    goToByScroll2(this.id);
+                });
+
+            });
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
+
+

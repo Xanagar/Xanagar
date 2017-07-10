@@ -1,0 +1,240 @@
+div.banner {
+
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+
+    height: 132px;
+    background-color: #e6e6e6;
+
+
+
+
+
+}
+
+div.banner-mobile {
+
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+
+    height: 160px;
+    background-color: #e6e6e6;
+
+
+
+
+
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 12px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+div.social-mobile {
+
+
+    background-color: #292b2c;
+    width: 58px;
+
+
+
+}
+
+div.social {
+
+
+    background-color: #292b2c;
+    width: 150px;
+
+
+
+}
+
+
+div.test2 {
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 900px;
+    height: 100px;
+
+    margin-left: -450px;
+    margin-top: -32px;
+
+
+
+}
+
+
+#test {
+
+    text-align: center;
+
+}
+
+
+h2.test3 {
+
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: lighter;
+
+    display: inline;
+    font-size: 42px;
+
+
+
+}
+
+#coverPhoto {
+
+    position: relative;
+    width: 100%;
+    margin-top: 700px;
+    z-index: 20;
+    top: 20%;
+}
+
+#coverText {
+
+
+    background-image: url("../Building8.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 100%;
+    z-index: 1000;
+
+}
+
+
+div.body {
+
+    position: absolute;
+    width: 1100px;
+    margin-left: -550px;
+    margin-top: 120px;
+    background-color: #dddddd;
+    left: 50%;
+
+
+
+
+
+}
+
+div.media {
+
+    position:fixed;
+    width: 100px;
+    height: 200px;
+
+    top: 30%;
+
+    background-color: #4d4d4d;
+
+
+}
+
+
+#photo {
+
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    margin-top: 200px;
+    height: 500px;
+    width: 100%;
+
+}
+
+h1 {
+
+    font-family: Georgia;
+    color: #520184;
+    letter-spacing: 2px;
+
+
+}
+
+p {
+
+
+    font-family: Merriweather;
+    color: #4d4d4d;
+    line-height: 32px;
+    size: 14px;
+
+}
+
+h8 {
+
+    font-family: Merriweather;
+    font-weight: normal;
+
+
+}
+a.hoverLink {
+
+    color: #ffffff;
+    font-family: Merriweather;
+    text-decoration: none;
+
+}
+
+
+a.hoverLink:hover {
+
+
+    color: #bbbbbb;
+
+
+
+
+}
+
+a.testHover {
+
+    text-decoration: none;
+
+    line-height: 16px;
+    color: #303030;
+    font-family: Merriweather;
+    padding-bottom-bottom: 24px;
+    letter-spacing: 2px
+
+}
+
+a.testHover:hover {
+
+    color: #999999;
+
+
+}

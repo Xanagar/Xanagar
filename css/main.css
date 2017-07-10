@@ -1,0 +1,605 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+h2.test {
+
+    text-align: center;
+    font-family: Comfortaa;
+    font-weight: normal;
+
+
+
+}
+
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+
+#cycler2{position:relative;}
+#cycler2 img{position:absolute;z-index:1}
+#cycler2 img.active{z-index:3}
+
+
+div.banner {
+
+    position: relative;
+    width: 100vw;
+    margin-top: -15px;
+    height: 132px;
+    background-color: #f8f8f8;
+
+
+
+
+
+
+}
+
+
+
+#websiteInfo {
+
+
+    width: 70vw;
+    margin-left: 15vw;
+
+    height: 425px;
+
+    background-color: #d896ff;
+
+    outline: #be29ec solid;
+
+
+}
+
+
+#webAppInfo {
+
+
+    width: 70vw;
+    margin-left: 15vw;
+
+    height: 425px;
+
+    background-color: #6ff662;
+
+    outline: #449f29 solid;
+
+
+}
+
+#mobileAppInfo {
+
+
+    width: 70vw;
+    margin-left: 15vw;
+
+    height: 425px;
+
+    background-color: #2de7f6;
+
+    outline: #69a6ea solid;
+
+
+}
+
+#contactInfo {
+
+
+    width: 70vw;
+    margin-left: 15vw;
+
+    height: 425px;
+
+    background-color: #ff7b7b;
+
+    outline: #ff5252 solid;
+
+
+}
+
+#serviceButton1 {
+
+    position: absolute;
+
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Comfortaa;
+
+    font-weight: lighter;
+
+    text-align: center;
+
+
+
+    margin-left: -405px;
+    margin-top: -160px;
+    width: 120px;
+    height: 60px;
+
+    left: 50%;
+
+
+
+
+
+    outline: #ffffff solid;
+
+    padding-top: 15px;
+    z-index: 5;
+
+}
+
+
+#serviceButton1:hover {
+
+
+
+    background-color: #ffffff;
+
+    color: #d896ff;
+
+    cursor: pointer;
+
+
+
+}
+
+#serviceButton2 {
+
+    position: absolute;
+
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Comfortaa;
+
+    font-weight: lighter;
+
+    text-align: center;
+
+    margin-top: -160px;
+
+    margin-left: -60px;
+    width: 120px;
+    height: 60px;
+
+    left: 50%;
+
+
+
+
+
+    outline: #ffffff solid;
+
+    padding-top: 15px;
+    z-index: 5;
+
+}
+
+
+#serviceButton2:hover {
+
+
+
+    background-color: #ffffff;
+
+    color: #6ff662;
+
+    cursor: pointer;
+
+
+
+
+}
+
+#serviceButton3 {
+
+    position: absolute;
+
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Comfortaa;
+
+    font-weight: lighter;
+
+    text-align: center;
+
+    margin-top: -160px;
+
+    margin-left: 296px;
+    width: 120px;
+    height: 60px;
+
+    left: 50%;
+
+
+
+
+
+    outline: #ffffff solid;
+
+    padding-top: 15px;
+    z-index: 5;
+
+}
+
+
+#serviceButton3:hover {
+
+
+
+    background-color: #ffffff;
+
+    color: #2de7f6;
+
+    cursor: pointer;
+
+
+
+}
+
+
+div.test2 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 750px;
+    height: 100px;
+
+    margin-left: -375px;
+    margin-top: -32px;
+
+
+
+}
+
+
+#XanagarLogo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 319px;
+    height: 88.5px;
+    margin-top: -120px; /* Half the height */
+    margin-left: -159.5px; /* Half the width */
+}
+
+a.navButton {
+
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    line-height: 100px;
+    margin-left: 80px;
+    font-family: Comfortaa;
+    font-weight: normal;
+    top: 15%;
+}
+
+#contact:hover {
+
+    color: #999999;
+    cursor: pointer;
+
+}
+
+#services:hover {
+
+    color: #999999;
+    cursor: pointer;
+
+
+}
+
+#success:hover {
+
+    color: #999999;
+    cursor: pointer;
+
+
+}
+
+a.navButton:hover {
+
+    color: #999999;
+    text-decoration: none;
+
+}
+
+
+div.test3 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 750px;
+    height: 100px;
+
+    margin-left: -375px;
+    margin-top: 24px;
+
+
+
+}
+
+
+p {
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+
+h8 {
+
+    font-family: Comfortaa;
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
