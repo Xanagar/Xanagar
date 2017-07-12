@@ -1,0 +1,30 @@
+.body {
+
+
+}
+.square {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name{
+    line-height:0;
+}
+
+.position{
+    line-height:0;
+}
+
+
+.bio {
+    /*font-size:0.6em;*/
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, white,transparent);
+}

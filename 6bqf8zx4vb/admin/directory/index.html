@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xanagar Admin Interface</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="icon" type="image/png" href="favicon2.png" sizes="16x16" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="banner" style="box-shadow: 2.5px 2.5px 5px #666666; z-index: 9999; display: table-cell; vertical-align: middle">
+
+    <div class="row">
+
+
+        <a class="col-sm-4" href="http://xanagar.com">
+
+            <img src="Xanagar%20Logo%20White.png" style="  margin-left: 48px; display: inline; margin-right: 72px; margin-top: 48px; width: 179.43px; height: 50.57px;"/>
+
+
+        </a>
+
+        <div style="margin-right: 0px; padding-right: 0px" class="col-sm-2">
+
+            <label style="color: #ffffff; margin-left: 32px; margin-top: 72px" for="sel1" >Select page</label>
+        </div>
+
+
+    </div>
+
+    <div class="row" >
+
+        <p class="col-sm-4" style=" color: #ffffff; margin-left: 48px; margin-top: 8px; font-family: Comfortaa; font-weight: lighter;  font-size: 20px">
+            Millner | Woodruff CPAs Content Management
+        </p>
+
+
+
+
+
+        <div style="margin-left: 0px; padding-left: 0px" class="form-group col-sm-2">
+
+
+            <select class="form-control" id="pages">
+                <option value="main">main</option>
+                <option selected value="directory">directory</option>
+
+            </select>
+        </div>
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+<div style="padding-top: 150px" class="container">
+    <h2>Bordered Table</h2>
+    <p>The .table-bordered class adds borders to a table:</p>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+        </tr>
+        <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+    $("#pages").change(function () {
+        document.location = '../' + $("#pages").val();
+    });
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

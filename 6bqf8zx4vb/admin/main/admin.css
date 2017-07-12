@@ -1,0 +1,33 @@
+
+div.banner {
+
+    position: fixed;
+    width: 100%;
+    margin-top: -15px;
+    height: 146px;
+    background-color: #222222;
+
+
+
+
+
+
+}
+
+h1.cmsTitle {
+
+
+    font-family: Comfortaa;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+p {
+
+
+    font-family: Comfortaa;
+    color: #4d4d4d;
+    line-height: 32px;
+    size: 14px;
+
+}

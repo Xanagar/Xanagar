@@ -1,0 +1,182 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<div class="container">
+    <div class="row" style="padding:50px; position: inherit">
+        <div class="col-11" style="margin: auto; padding: 10px">
+
+            <div class="row" style="padding:2px; text-align: center">
+                <div class="col-4">
+                    <img src="sample_portrait.jpg" style="width: inherit">
+                </div>
+                <div class="col-sm-8" style="text-align: left">
+                    <h3>Michael Woodruff  |  President</h3>
+                    <p style="font-size: 0.9em">Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in.
+                        Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel.
+                        Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in.
+                        Id pri tibique lobortis. Autem vidisse maiorum et mel. Id saepe cetero definiebas vel.
+                        Vel solet verterem electram ex, ex minim consequat qui. At stet choro eos.Lorem ipsum dolor sit amet,
+                        mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmo
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="mainDiv" class="container">
+
+</div>
+
+
+</div>
+
+</body>
+
+<script>
+
+
+
+
+
+
+
+    var dict = {
+        0: ["Dustin Johnson" ,"Manager", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        1: ["Jake Smith" ,"Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        2: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        3: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        4: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        5: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."]
+        6: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."]
+        7: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."]
+        8: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."]
+
+    }
+
+
+    var makeImage = (imgsrc) => {
+        var img = document.createElement('img')
+        img.src = "HeadShot.png"
+        img.className = "head"
+
+        var row = document.createElement('div')
+        row.className = "row head"
+        row.appendChild(img)
+        return row
+    }
+
+    var makeName = (name) => {
+        var p = document.createElement('p')
+        p.innerHTML = name
+
+        var column = document.createElement('div')
+        column.className = "col name"
+        column.appendChild(p)
+
+        var row = document.createElement('div')
+        row.className = "row"
+        row.appendChild(column)
+
+        return row
+    }
+
+    var makePosition = (position) => {
+        var p = document.createElement('p')
+        p.innerHTML = name
+
+        var column = document.createElement('div')
+        column.className = "col position"
+        column.appendChild(p)
+
+        var row = document.createElement('div')
+        row.className = "row"
+        row.appendChild(column)
+
+        return row
+    }
+    var makeBio = (bio) => {
+        var p = document.createElement('p')
+        p.innerHTML = bio
+
+        var column = document.createElement('div')
+        column.className = "col bio"
+        column.appendChild(p)
+
+        var row = document.createElement('div')
+        row.className = "row"
+        row.appendChild(column)
+
+        return row
+
+    }
+
+
+
+    window.onload = () => {
+        var insertDiv = document.getElementById("mainDiv")
+        var rowElement = document.createElement("div")
+        rowElement.className = "row justify-content-center"
+
+        for (var key in dict) {
+
+
+            var name = dict[key][0]
+            var position = dict[key][1]
+            var imgsrc = dict[key][2]
+            var bio = dict[key][3]
+
+
+            var imgElement = makeImage(imgsrc)
+            var nameElement = makeName(name)
+            var bioElement = makeBio(bio)
+            var positionElement = makeBio(position)
+            var mainElement = document.getElementById("mainDiv")
+
+            var colElement = document.createElement('div')
+            colElement.className = "col-4 square"
+            colElement.appendChild(imgElement)
+            colElement.appendChild(nameElement)
+            colElement.appendChild(positionElement)
+            colElement.appendChild(bioElement)
+
+
+
+            if (((key+1) % 3 == 0 && key != 0) || key+1 == Object.keys(dict).length) {
+
+                rowElement.appendChild(colElement)
+                mainElement.appendChild(rowElement)
+                rowElement = document.createElement('div')
+                rowElement.className = "row justify-content-center"
+            } else {
+                rowElement.appendChild(colElement)
+            }
+        }
+    }
+
+</script>
+</html>
